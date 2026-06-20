@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Weather App</h1>
+        </header>
+        <main>
+            <!-- Search Bar -->
+            <div class="search-wrapper">
+                <div class="search-container">
+                    <input type="text" id="cityInput" placeholder="Search city...">
+                    <button id="searchBtn">Search</button>
+                </div>
+
+                <!-- Search History -->
+                <section id="searchHistory"></section>
+            </div>
+            
+            <div id="loading" class="hidden">Loading...</div>
+
+            <div id="errorMessage"></div>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div id="weatherIcon" class="sun"></div>
+                <h2 id="cityName"></h2>
+                <h3 id="temperature"></h3>
+                <p id="description"></p>
+            </section>
+
+            <!-- Stats -->
+            <section class="stats-card">
+                <div class="stat-item">
+                    <p class="stat-label">Humidity</p>
+                    <p id="humidity" class="stat-value">—</p>
+                </div>
+
+                <div class="stat-item">
+                    <p class="stat-label">Wind</p>
+                    <p id="windSpeed" class="stat-value">—</p>
+                </div>
+
+                <div class="stat-item">
+                    <p class="stat-label">UV Index</p>
+                    <p id="uvIndex" class="stat-value">—</p>
+                </div>
+            </section>
+
+            <!-- Forecast -->
+            <section class="forecast">
+                <h3>5-DAY FORECAST</h3>
+
+                <div id="forecastContainer">
+                    
+                </div>
+            </section>
+        </main>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
