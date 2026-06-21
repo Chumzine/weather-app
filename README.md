@@ -31,5 +31,5 @@ This Weather App was built by me using HTML, CSS, and JavaScript, through my kno
 
 ## Live Demo
 
-GitHub Pages URL: 
-Hosted Links:
+GitHub Pages URL: https://chumzine.github.io/weather-app/
+Hosted Links: (https://weather-app-kohl-six-85.vercel.app/)(https://weather-app-muscle.sa.pipeops.app/)
